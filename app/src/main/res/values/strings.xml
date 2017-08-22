@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">9gag</string>
+
+    <string name="api_url">http://9gag-restapi-dev.us-east-1.elasticbeanstalk.com</string>
+
+    <string-array name="tags_suggestions">
+        <item>Game of thrones</item>
+        <item>Geeks</item>
+        <item>Happiness</item>
+        <item>Funny</item>
+        <item>Troll</item>
+        <item>Cats</item>
+        <item>Love</item>
+        <item>Cute</item>
+    </string-array>
+
+    <string name="dialog_title">Designed by M.Labouardy !</string>
+    <string name="dialog_description">For more amazing apps, visit my blog</string>
+</resources>

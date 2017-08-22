@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/meme_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingTop="@dimen/meme_padding_margin"
+        android:paddingBottom="@dimen/meme_padding_margin"
+        android:layout_margin="@dimen/meme_padding_margin">
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textColor="@color/black"
+            android:textSize="@dimen/meme_description"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:layout_margin="@dimen/meme_padding_margin"/>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imageNIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+</LinearLayout>

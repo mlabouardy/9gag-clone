@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#607D8B</color>
+
+    <color name="black">#000000</color>
+
+    <color name="meme_bg">#d3d6db</color>
+    <color name="meme_item_bg">#ffffff</color>
+    <color name="meme_item_border">#c2c3c8</color>
+</resources>
