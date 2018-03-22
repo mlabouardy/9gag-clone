@@ -2,6 +2,10 @@
 
 # 9Gag Android Application
 
+<p align="center">
+   <img src="screenshot.png" width="40%"/>
+</p>
+
 ## Dependencies
 
 * Retrofit
@@ -12,4 +16,4 @@
 
 ## How to use
 
-http://www.blog.labouardy.com/create-9gag-android-application/
+* [Create 9Gag Android Application](http://www.blog.labouardy.com/create-9gag-android-application/)
